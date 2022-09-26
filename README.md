@@ -1,1 +1,3 @@
 # dotfiles
+
+`mkdir ~/Pictures/Screenshots`
