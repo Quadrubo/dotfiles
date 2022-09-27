@@ -3,11 +3,11 @@
  * Maintainer: joekamprad <joekamprad@endeavouros.com>
  *******************************************************/
 configuration {
-    font:            "Noto Sans Regular 10";
+    font:            "JetBrains Mono 10";
     show-icons:      false;
     icon-theme:      "Qogir";
     scroll-method:   0;
-    disable-history: false;
+    disable-history: true;
     sidebar-mode:    false;
 }
 
@@ -15,16 +15,14 @@ configuration {
 
 window {
     background-color: @background;
-    border:           0;
+    border:           2;
+    border-color:     @primary;
     padding:          10;
     transparency:     "real";
     width:            120px;
-    location:         east;
-    /*y-offset:       18;*/
-    /*x-offset:       850;*/
 }
 listview {
-    lines:     6;
+    lines:     7;
     columns:   1;
     scrollbar: false;
 }
