@@ -12,3 +12,7 @@
 `/etc/systemd/logind.conf`
 
 `HandleLidSwitch=lock`
+
+## Bluetooth
+
+`sudo systemctl enable bluetooth.service`
