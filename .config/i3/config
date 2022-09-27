@@ -399,6 +399,9 @@ exec --no-startup-id sleep 7 && discord
 #exec --no-startup-id sleep 10 && spotify
 exec --no-startup-id $HOME/.config/polybar/launch.sh
 
+# start xss-lock
+exec --no-startup-id xss-lock -- /home/julian/.config/i3/scripts/blur-lock --transfer-sleep-lock -n
+
 ###############
 # system tray #
 ###############
