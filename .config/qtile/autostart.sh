@@ -38,3 +38,6 @@ xss-lock -- /home/julian/.config/i3/scripts/blur-lock --transfer-sleep-lock -n &
 
 # clipman-applet
 #exec --no-startup-id xfce4-clipman
+
+# Protonmail-Bridge
+#protonmail-bridge --noninteractive & disown

@@ -1,6 +1,3 @@
-from libqtile import widget
-from libqtile import qtile
-
 widget_defaults = dict(
     font="sans",
     fontsize=12,
