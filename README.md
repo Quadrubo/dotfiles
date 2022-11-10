@@ -17,6 +17,16 @@ Set the number of workspaces to 10 by default.
 gsettings set org.cinnamon.desktop.wm.preferences num-workspaces 10
 ```
 
+### VSCode
+
+To create a backup of your VSCode extensions run this command.
+
+```
+code --list-extensions | xargs -I{} echo code --install-extension {} \&\& | sed '$ s/&&//' > vscode_backup.sh
+```
+
+To restore it just run the resulting file.
+
 ### Cinnamon Backup
 
 To restore the cinnamon backup use dconf.
