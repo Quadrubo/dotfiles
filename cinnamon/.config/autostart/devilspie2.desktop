@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=devilspie2
+X-GNOME-Autostart-enabled=true
+NoDisplay=false
+Hidden=false
+Name[en_US]=devilspie2
+Comment[en_US]=Auto Workspace window mover
+X-GNOME-Autostart-Delay=0

@@ -1,0 +1,38 @@
+#!/bin/sh
+
+BACKGROUND='#282838'
+BLANK='#00000000'
+CLEAR='#ffffff22'
+DEFAULT='#b782da'
+TEXT='#b6bcdd'
+WRONG='#880000bb'
+VERIFYING='#b782da'
+TYPING='#EF5B5B'
+
+i3lock \
+--insidever-color=$CLEAR     \
+--ringver-color=$VERIFYING   \
+\
+--insidewrong-color=$CLEAR   \
+--ringwrong-color=$WRONG     \
+\
+--inside-color=$BACKGROUND   \
+--ring-color=$DEFAULT        \
+--line-color=$BLANK          \
+--separator-color=$DEFAULT   \
+\
+--verif-color=$TEXT          \
+--wrong-color=$TEXT         \
+--time-color=$TEXT           \
+--date-color=$TEXT           \
+--layout-color=$TEXT         \
+--keyhl-color=$TYPING        \
+--bshl-color=$TYPING         \
+\
+--screen 1                   \
+--blur 5                     \
+--clock                      \
+--indicator                  \
+--time-str="%H:%M:%S"        \
+--date-str="%A, %Y-%m-%d"    \
+--keylayout 1                \
