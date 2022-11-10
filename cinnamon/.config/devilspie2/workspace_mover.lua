@@ -1,4 +1,4 @@
-#print(get_process_name());
+print(get_process_name());
 
 if (get_process_name() == 'Discord') then
   set_window_workspace(9);

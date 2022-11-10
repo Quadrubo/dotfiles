@@ -89,3 +89,4 @@ if [ -f ~/.bash_aliases ]; then
 	. ~/.bash_aliases
 fi
 
+export BROWSER=com.brave.Browser
