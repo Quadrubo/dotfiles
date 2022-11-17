@@ -5,5 +5,5 @@ if not set -q MY_ABBR_SET
     abbr -a re restore
     abbr -a mc mkdir-cd
     abbr -a cf create-file
-    abbr -a unzip clean-unzip
+    abbr -a sshk kitty-ssh
 end
